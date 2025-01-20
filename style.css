@@ -23,14 +23,18 @@ h2 {
   margin: 0;
   padding: 0;
 }
-
+html,
+body {
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
 body {
   background-color: var(--clr-yellow);
   display: flex;
   justify-content: center;
   align-items: center;
   font-family: "Figtree", serif;
-  height: 100%;
 }
 img {
   display: block;
@@ -59,9 +63,8 @@ img {
   the box shadow which is 8 pixels offset to the right of the container. 
   This makes both sides have the same distance from the edge of the 
   screen */
-  margin: 0px 18px 0px 10px;
+  margin: 10px 18px 18px 10px;
   box-shadow: 8px 8px 0px 0px rgb(0, 0, 0);
-  /* margin: 100px; */
   padding: 20px;
   max-width: 450px;
 
