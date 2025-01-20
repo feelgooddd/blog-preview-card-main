@@ -26,15 +26,15 @@ h2 {
 
 html,
 body {
-  height: 100%;
+  min-height: 100vh;
   margin: 0;
   padding: 0;
 }
 body {
   background-color: var(--clr-yellow);
   display: flex;
-  place-items: center;
-  place-content: center;
+  justify-content: center;
+  align-items: center;
   font-family: "Figtree", serif;
 }
 img {
@@ -66,7 +66,7 @@ img {
   screen */
   margin: 0px 18px 0px 10px;
   box-shadow: 8px 8px 0px 0px rgb(0, 0, 0);
-
+  /* margin: 100px; */
   padding: 20px;
   max-width: 450px;
 }
